@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA redirect: store the path and redirect to index.html
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      // Encode the full path after the repo name as a query param
+      var repoName = '/you-will-be-fine';
+      var redirectPath = path.slice(repoName.length) || '/';
+      sessionStorage.setItem('spa_redirect', redirectPath + search + hash);
+      window.location.replace(repoName + '/');
+    </script>
+  </head>
+  <body></body>
+</html>
