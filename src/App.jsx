@@ -26,7 +26,7 @@ function AppContent() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/you-will-be-fine">
       <AppContent />
     </BrowserRouter>
   )
