@@ -1,0 +1,73 @@
+export const dailyAffirmations = [
+  "Your heart is brave for feeling so deeply.",
+  "This feeling will pass — it always does.",
+  "You are safe in this very moment.",
+  "Your breath is your anchor to the present.",
+  "You are stronger than your most anxious thought.",
+  "It's okay to not be okay right now.",
+  "You have survived every difficult moment so far.",
+  "The heaviness in your chest will lift.",
+  "You are worthy of peace and gentleness.",
+  "One breath at a time is always enough.",
+  "You are loved, even in your hardest moments.",
+  "Your feelings are valid — all of them.",
+  "You don't have to have it all figured out today.",
+  "Rest is productive. Softness is strength.",
+  "The storm in your mind is not the truth.",
+  "You are doing better than you think.",
+  "There is so much goodness still ahead of you.",
+  "Your anxiety does not define you.",
+  "You are held, even when it doesn't feel like it.",
+  "Every exhale releases what no longer serves you.",
+  "You are not your thoughts.",
+  "Peace is possible, even now.",
+  "You came back from every hard day before this one.",
+  "Your best is always, always enough.",
+  "You are allowed to take up space and breathe fully.",
+  "This moment is temporary. Your strength is not.",
+  "The weight you carry is not yours alone to bear.",
+  "You deserve to feel at ease in your own body.",
+  "Gentleness towards yourself is an act of courage.",
+  "Your heart knows how to find its way back to calm.",
+]
+
+export const heartAffirmations = [
+  "Let your chest soften with each slow exhale.",
+  "The weight on your heart is already beginning to lift.",
+  "Breathe gently into the space around your heart.",
+  "Your heart knows how to heal — trust it.",
+  "With every exhale, release what's heavy.",
+  "You are safe to let your heart feel light again.",
+  "Peace is settling into your chest, one breath at a time.",
+  "Imagine warm, golden light filling your chest as you inhale.",
+  "Your heart has carried you through so much — honor it.",
+  "Breathe in softness. Breathe out tension.",
+]
+
+export const groundingPrompts = {
+  see: [
+    "something with a color you love",
+    "a pattern or texture on a surface nearby",
+    "a source of light in the room",
+    "something small and detailed",
+    "something that makes you feel at home",
+  ],
+  touch: [
+    "the texture of your clothing",
+    "the surface beneath you — floor or seat",
+    "the temperature of the air on your skin",
+    "something smooth or soft nearby",
+  ],
+  hear: [
+    "a distant sound outside",
+    "the quiet sound of your own breathing",
+    "any low hum or ambient sound nearby",
+  ],
+  smell: [
+    "the scent of the air around you",
+    "your favorite comforting scent you can remember",
+  ],
+  taste: [
+    "any taste that's lingering in your mouth right now",
+  ],
+}
